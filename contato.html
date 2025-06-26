@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <title> Contato </title>
+        </head>
+        <style>
+            h1 {
+                color: rgb(0, 0, 0);
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-style: italic;
+                font-size: 30pt;
+                text-align: center;
+            }
+            label {
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                color: rgb(255, 0, 0);
+                font-style: italic;
+            }
+            input {
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                color: rgb(0, 0, 0);
+            }
+        </style>
+        <body>
+            <h1> ----------------------------- Contato ----------------------------- </h1>
+            <form>
+                <label for="lnome">Nome:</label><br>
+                <input type="text" id="nome" name="nome"><br>
+                <label for="1email">E-mail:</label><br>
+                <input type="text" id="email" name="nome"><br>
+               
+                <label for="lnecessidade">Necessidade:</label><br>
+                <label for="1motora">Motora:</label><br>
+                <input type="checkbox" id="motora" name="motora" value="Motora"><br>
+                <label for="lvisual">Visual:</label><br>
+                <input type="checkbox" id="visual" name="visual" value="Visual"><br>
+                <label for="1auditiva">Auditiva:</label><br>
+                <input type="checkbox" id="auditiva" name="auditiva" value="Auditiva"><br>
+                <label for="lintelectual"> Intelectual:</label>
+                <input type="checkbox" id="intelectual" name="intelectual" value="Intelectual"><br>
+                <input type="submit" value="Enviar" onclick="alert('Contato enviado com sucesso');">
+            </form>
+        </body>
+</html>
