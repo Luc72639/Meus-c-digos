@@ -1,0 +1,71 @@
+body {
+    background-color: lavander;
+}
+h1 {
+    color: purple;
+    text-align: center;
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 14px;
+}
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* verde */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .botao:hover {
+    background-color: #45a049; /* verde escuro ao passar o mouse */
+  }
+  .botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin: 5px; /* espaço entre os botões */
+  }
+  
+  .botao:hover {
+    background-color: #45a049;
+  }
+  .botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin: 5px;
+  }
+  
+  .botao:hover {
+    background-color: #45a049;
+  }
+  .botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin: 5px;
+  }
+  
+  .botao:hover {
+    background-color: #45a049;
+  }
