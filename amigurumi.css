@@ -15,7 +15,7 @@ body{
 }
 
 .navbar{
-    background-color: rgb(162, 152, 152);
+    background-color: rgb(0, 116, 31);
     padding: 1rem;
     position: sticky;
     top: 0;
@@ -28,12 +28,12 @@ body{
     justify-content: space-between;
 }
 .logo{
-    color: rgb(255, 0, 0);
+    color: rgb(255, 213, 0);
 
 }
 
 .logo span{
-    color: rgb(255, 208, 0);
+    color: rgb(255, 0, 0);
 }
 nav ul{
     display: flex;
@@ -49,4 +49,18 @@ nav ul{
     width: 30px;
     cursor: pointer;
 
+}
+.nav-icon-container img:first-child{
+    margin-right: 1rem;
+
+}
+nav ul li{
+    color: rgb(251, 255, 0);
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+nav ul li:hover{
+    transform: translate(-5px);
+    transition: all 0.2s;
+    font-weight: bold;
 }
