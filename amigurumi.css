@@ -64,3 +64,56 @@ nav ul li:hover{
     transition: all 0.2s;
     font-weight: bold;
 }
+.menu-bottom{
+    display: none;
+}
+header{
+    background-image: radial-gradient(#00ff04 #00dc4d);
+
+}
+.header-bottom-side{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 1rem;
+
+}
+.header-bottom-side-left{
+    height: 100%;
+    flex-basis: 50%;
+
+}
+.header-bottom-side-left h2{
+    font-size: 3.2rem;
+    margin-bottom: 1.5rem;
+}
+.header-bottom-side-left p{
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+
+}
+.header-bottom-side-left button{
+    background-color: rgb(0, 255, 76);
+    border: none;
+    cursor: pointer;
+    padding: 0.8rem 3.8rem;
+    border-radius: 9999px;
+    color: aqua;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: all 0.2s;
+}
+.header-bottom-side-left button:hover{
+    background-color: rgb(0, 255, 98);
+}
+.header-bottom-side-right{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-bottom-side-right img{
+    width: 115%;
+
+
+}
