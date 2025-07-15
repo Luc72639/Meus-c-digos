@@ -7,12 +7,10 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-body
-{
-    background-color: aqua;
-}
-
-
+.minha-lista a {
+    text-decoration: none;
+    color: rgb(229, 255, 0);
+ }
 .header-inner-content{
     max-width: 1300px;
     margin-left: auto;
@@ -60,11 +58,6 @@ nav ul{
 
 }
 nav ul li{
-    color: rgb(251, 255, 0);
-    margin-right: 1.5rem;
-    cursor: pointer;
-}
-nav ul li a{
     color: rgb(251, 255, 0);
     margin-right: 1.5rem;
     cursor: pointer;
