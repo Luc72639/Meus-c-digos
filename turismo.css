@@ -5,6 +5,7 @@
     }
     
 body{
+    background-color: lightgreen;
     font-family: Arial, Helvetica, sans-serif;
 }
 .minha-lista a {
@@ -30,6 +31,7 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+
 .logo{
     color: rgb(255, 213, 0);
 
@@ -120,3 +122,29 @@ header{
 
 
 }
+.footer {
+    background-color: #004d1a; /* verde escuro */
+    color: #fffbd1;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+    font-size: 0.95rem;
+  }
+  
+  .footer-content p {
+    margin: 0.3rem 0;
+  }
+  .localizacao-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    gap: 4rem;  /* aumentei de 2rem para 4rem */
+    flex-wrap: wrap;
+    }
+       
+
+    
+
+
