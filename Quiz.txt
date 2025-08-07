@@ -1,0 +1,23 @@
+#SuperQuiz
+print("Quiz sobre Star Wars")
+print("Quem é o imperador da galaxia?")
+a = input("Resposta: ")
+if a == "Palpatine":
+    print("Correto!!!")
+else:
+    print("Errado!!!")
+print("=================")
+print("Qual é a identidade secreta do darth vader")
+a = input("Resposta: ")
+if a == "Anakin skywaker"
+    print("Correto!!!")
+else:
+    print("Errado!!!")
+print("=================")
+print("Qual o mestre do Anakin?")
+a = input("Resposta: ")
+if a == "Obi wan kenobi"
+    print("Correto!!!")
+else:
+    print("Errado")
+    
