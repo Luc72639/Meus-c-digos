@@ -1,0 +1,13 @@
+
+#Calcular a idade
+ano = 2025
+ano_nasc = int(input("Digite o ano do seu nascimento: "))
+idade = ano - ano_nasc
+if(idade >= 16):
+    print("Pode votar!")
+else:
+    print("Não pode votar")
+
+
+print("Idade em",ano," é ", idade)
+
